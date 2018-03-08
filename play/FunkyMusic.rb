@@ -1,0 +1,21 @@
+use_bpm 110
+use_synth :dsaw
+
+play :c2
+sleep 0.5
+play :c2
+sleep 0.5
+play :c3
+sleep 0.5
+play :bf2
+sleep 0.5
+play :c3
+sleep 0.5
+play :f2
+sleep 0.25
+play :g2
+sleep 0.5
+play :bf2
+sleep 0.25
+play :c3
+sleep 0.5
