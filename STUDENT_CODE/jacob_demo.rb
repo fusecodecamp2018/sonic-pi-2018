@@ -1,0 +1,221 @@
+
+cue :fur_elise
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :b4
+sleep 0.5
+play :d5
+sleep 0.5
+play :c5
+sleep 0.5
+play :a4
+play :a2
+sleep 0.5
+play :c3
+sleep 0.5
+play :e3
+sleep 0.5
+play :c3
+sleep 0.5
+play :e3
+sleep 0.5
+play :a4
+sleep 0.5
+play :b4
+play :af2
+sleep 0.5
+play :d3
+sleep 0.5
+play :e3
+sleep 0.5
+play :d3
+sleep 0.5
+play :e3
+sleep 0.5
+play :b4
+sleep 0.5
+play :c5
+play :a2
+sleep 0.5
+play :c3
+sleep 0.5
+play :e3
+sleep 0.5
+play :a4
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :b4
+sleep 0.5
+play :d5
+sleep 0.5
+play :c5
+sleep 0.5
+play :a4
+play :a2
+sleep 0.5
+play :c3
+sleep 0.5
+play :e3
+sleep 0.5
+play :c3
+sleep 0.5
+play :e3
+sleep 0.5
+play :a4
+sleep 0.5
+play :b4
+play :af2
+sleep 0.5
+play :d3
+sleep 0.5
+play :e3
+sleep 0.5
+play :b3
+play :b4
+sleep 0.5
+play :c4
+play :c3
+sleep 0.5
+play :b3
+play :b4
+sleep 0.5
+play :a4
+play :a3
+sleep 2
+play :a4
+sleep 0.5
+play :b4
+sleep 0.5
+play :c5
+sleep 0.5
+play :d5
+sleep 0.5
+play :e5
+play :g3
+sleep 0.5
+play :c4
+sleep 0.5
+play :e4
+sleep 0.5
+play :e5
+sleep 0.5
+play :f5
+sleep 0.5
+play :e5
+sleep 0.5
+play :d5
+play :g3
+sleep 0.5
+play :b3
+sleep 0.5
+play :d4
+sleep 0.5
+play :d5
+sleep 0.5
+play :e5
+sleep 0.5
+play :d5
+sleep 0.5
+play :c5
+play :e2
+sleep 0.5
+play :e2
+sleep 0.5
+play :e3
+sleep 0.5
+play :e3
+sleep 0.5
+play :e4
+sleep 0.5
+play :e3
+sleep 0.5
+play :e4
+sleep 0.5
+play :e4
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :ef5
+sleep 0.5
+play :e5
+sleep 0.5
+play :b4
+sleep 0.5
+play :d5
+sleep 0.5
+play :c5
+
+
+
+def my_func
+  play :b4
+  sleep 0.5
+  play :c5
+  sleep 0.5
+  play :d5
+end
+
+
+
+live_loop :stuff do
+  sync :fur_elise
+  10.times do
+    sample :ambi_piano
+    sleep 1
+  end
+end
+
+live_loop :glass do
+  sync :fur_elise
+  4.times do
+    sample :ambi_glass_hum
+    sleep 5
+  end
+end
+
+
+
+
+
+
